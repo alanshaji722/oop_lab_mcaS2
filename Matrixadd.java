@@ -31,7 +31,7 @@ public class Matrixadd
 
     for (c = 0; c < m; c++)
       for (d = 0; d < n; d++)
-        sum[c][d] = first[c][d] + second[c][d];  //replace '+' with '-' to subtract matrices
+        sum[c][d] = first[c][d] + second[c][d]; 
 
     System.out.println("Sum of the matrices:");
 
